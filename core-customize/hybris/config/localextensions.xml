@@ -138,6 +138,8 @@
 		<extension name='b2bacceleratorfacades' />
 		<extension name='acceleratorstorefrontcommons' />
 		<extension name='b2boccaddon' />
+		<extension name='permissionswebservices' />
+		<extension name='yb2bacceleratorstorefront' />
 
 		<!-- <extension name='adaptivesearch' />
 		<extension name='adaptivesearchbackoffice' />

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<groups xmlns="http://www.isdc.ro/wro" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isdc.ro/wro wro.xsd">
+   <group name="addons_responsive">
+      <js>/_ui/addons/commerceorgaddon/responsive/common/js/commerceorgnavigation.js</js>
+      <js>/_ui/addons/commerceorgaddon/responsive/common/js/commerceorgaddon.js</js>
+      <js>/_ui/addons/commerceorgaddon/responsive/common/js/jquery.validate.js</js>
+      <js>/_ui/addons/configurablebundleaddon/responsive/common/js/configurablebundleaddon.js</js>
+      <css>/_ui/addons/configurablebundleaddon/responsive/common/css/configurablebundleaddon.css</css>
+      <css>/_ui/addons/notificationaddon/responsive/common/css/notificationaddon.css</css>
+      <js>/_ui/addons/orderselfserviceaddon/responsive/common/js/orderselfserviceaddon.js</js>
+      <js>/_ui/addons/orderselfserviceaddon/responsive/common/js/cms/cancelorderaction.js</js>
+      <js>/_ui/addons/orderselfserviceaddon/responsive/common/js/cms/returnorderaction.js</js>
+      <css>/_ui/addons/orderselfserviceaddon/responsive/common/css/orderselfserviceaddon.css</css>
+      <js>/_ui/addons/b2bacceleratoraddon/responsive/common/js/acc.checkoutsummary.js</js>
+      <js>/_ui/addons/b2bacceleratoraddon/responsive/common/js/acc.paymentType.js</js>
+      <js>/_ui/addons/b2bacceleratoraddon/responsive/common/js/acc.replenishment.js</js>
+      <js>/_ui/addons/b2bacceleratoraddon/responsive/common/js/acc.orderform.js</js>
+      <js>/_ui/addons/b2bacceleratoraddon/responsive/common/js/acc.approval.js</js>
+      <js>/_ui/addons/customerticketingaddon/responsive/common/js/customerticketingaddon.js</js>
+      <css>/_ui/addons/customerticketingaddon/responsive/common/css/customerticketingaddon.css</css>
+      <js>/_ui/addons/sapquoteintegrationaddon/responsive/common/js/sapquoteintegrationaddon.js</js>
+      <css>/_ui/addons/sapquoteintegrationaddon/responsive/common/css/sapquoteintegrationaddon.css</css>
+      <js>/_ui/addons/smarteditaddon/shared/common/js/webApplicationInjector.js</js>
+      <js>/_ui/addons/smarteditaddon/shared/common/js/reprocessPage.js</js>
+      <js>/_ui/addons/smarteditaddon/shared/common/js/adjustComponentRenderingToSE.js</js>
+      <js>/_ui/addons/smarteditaddon/responsive/common/js/smarteditaddon.js</js>
+      <css>/_ui/addons/smarteditaddon/responsive/common/css/smarteditaddon.css</css>
+      <js>/_ui/addons/selectivecartsplitlistaddon/responsive/common/js/selectivecartsplitlistaddon.js</js>
+      <css>/_ui/addons/selectivecartsplitlistaddon/responsive/common/css/selectivecartsplitlistaddon.css</css>
+   </group>
+</groups>
+
