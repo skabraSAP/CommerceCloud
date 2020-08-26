@@ -128,7 +128,7 @@
 		<extension name='saporderexchange' />
 		<extension name='saporderexchangeb2b' />
 		<extension name='sapmodel' />
-		<extension name='sapcrmmodel' />
+		<!-- <extension name='sapcrmmodel' /> -->
 		<extension name='sapcustomerb2c' />
 		<extension name='sapcustomerb2b' />
 		<extension name='datahubadapter' />
