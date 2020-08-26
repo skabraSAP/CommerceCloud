@@ -154,5 +154,12 @@
 		<extension name='ysapomsfulfillment' />
 		<extension name='saporderexchangeoms' />
 		<extension name='saporderexchangeomsb2b' />
+		<extension name='sapinvoiceaddon' />
+		<extension name='sapinvoicefacades' />
+		<extension name='accountsummaryaddon' />
+		<extension name='sapinvoicebol' />
+		<extension name='sapinvoiceservices' />
+		<extension name='sapcpiorderexchangeoms' />
+		<extension name='sapcpiorderexchangeomsb2b' />
 	</extensions>
 </hybrisconfig>
