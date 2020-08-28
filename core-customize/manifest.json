@@ -1,14 +1,21 @@
 {
   "commerceSuiteVersion": "2005",
   "enableImageProcessingService": true,
-  "extensionPacks" : [
-  {
-    "name": "hybris-commerce-integrations",
-    "version": "2005.0"
-  }],
-  "extensions": ["cloudmediaconversion", "mediaconversionbackoffice", "yb2bacceleratorstorefront", "yacceleratorstorefront"],
+  "extensionPacks": [
+    {
+      "name": "hybris-commerce-integrations",
+      "version": "2005.0"
+    }
+  ],
+  "extensions": [
+    "cloudmediaconversion",
+    "mediaconversionbackoffice",
+    "yb2bacceleratorstorefront",
+    "yacceleratorstorefront"
+  ],
   "useConfig": {
-    "properties": [{
+    "properties": [
+      {
         "location": "/hybris/config/environments/local-dev.properties",
         "persona": "development"
       },
@@ -41,7 +48,8 @@
       "exclude": ["azurecloudhotfolder", "cloudcommons", "cloudhotfolder"]
     }
   },
-  "properties": [{
+  "properties": [
+    {
       "key": "lang.packs",
       "value": "de,en"
     },
@@ -54,61 +62,64 @@
       "value": "/yb2bacceleratorstorefront"
     }
   ],
-  "storefrontAddons": [{
+  "storefrontAddons": [
+    {
       "addon": "commerceorgsamplesaddon",
       "storefront": "yb2bacceleratorstorefront",
-      "template": "yacceleratorstorefront"
+      "template": "yb2bacceleratorstorefront"
     },
     {
       "addon": "smarteditaddon",
       "storefront": "yb2bacceleratorstorefront",
-      "template": "yacceleratorstorefront"
+      "template": "yb2bacceleratorstorefront"
     },
     {
       "addon": "customerticketingaddon",
       "storefront": "yb2bacceleratorstorefront",
-      "template": "yacceleratorstorefront"
+      "template": "yb2bacceleratorstorefront"
     },
     {
       "addon": "orderselfserviceaddon",
       "storefront": "yb2bacceleratorstorefront",
-      "template": "yacceleratorstorefront"
+      "template": "yb2bacceleratorstorefront"
     },
     {
       "addon": "multicountrysampledataaddon",
       "storefront": "yb2bacceleratorstorefront",
-      "template": "yacceleratorstorefront"
+      "template": "yb2bacceleratorstorefront"
     },
     {
       "addon": "pcmbackofficesamplesaddon",
       "storefront": "yb2bacceleratorstorefront",
-      "template": "yacceleratorstorefront"
+      "template": "yb2bacceleratorstorefront"
     },
     {
       "addon": "personalizationsearchsamplesaddon",
       "storefront": "yb2bacceleratorstorefront",
-      "template": "yacceleratorstorefront"
+      "template": "yb2bacceleratorstorefront"
     },
     {
       "addon": "personalizationaddon",
       "storefront": "yb2bacceleratorstorefront",
-      "template": "yacceleratorstorefront"
+      "template": "yb2bacceleratorstorefront"
     },
     {
       "addon": "commerceorgaddon",
       "storefront": "yb2bacceleratorstorefront",
-      "template": "yacceleratorstorefront"
+      "template": "yb2bacceleratorstorefront"
     },
     {
       "addon": "b2bacceleratoraddon",
       "storefront": "yb2bacceleratorstorefront",
-      "template": "yacceleratorstorefront"
+      "template": "yb2bacceleratorstorefront"
     }
   ],
-  "aspects": [{
+  "aspects": [
+    {
       "name": "backoffice",
       "properties": [],
-      "webapps": [{
+      "webapps": [
+        {
           "name": "hac",
           "contextPath": "/hac"
         },
@@ -128,7 +139,8 @@
     },
     {
       "name": "accstorefront",
-      "properties": [{
+      "properties": [
+        {
           "key": "spring.session.enabled",
           "value": "true"
         },
@@ -161,7 +173,8 @@
           "value": ""
         }
       ],
-      "webapps": [{
+      "webapps": [
+        {
           "name": "hac",
           "contextPath": "/hac"
         },
@@ -174,6 +187,10 @@
           "contextPath": ""
         },
         {
+          "name": "yb2bacceleratorstorefront",
+          "contextPath": "/yb2bacceleratorstorefront"
+        },
+        {
           "name": "acceleratorservices",
           "contextPath": "/acceleratorservices"
         }
@@ -181,11 +198,14 @@
     },
     {
       "name": "backgroundProcessing",
-      "properties": [{
-        "key": "cluster.node.groups",
-        "value": "integration,yHotfolderCandidate"
-      }],
-      "webapps": [{
+      "properties": [
+        {
+          "key": "cluster.node.groups",
+          "value": "integration,yHotfolderCandidate"
+        }
+      ],
+      "webapps": [
+        {
           "name": "hac",
           "contextPath": "/hac"
         },
@@ -197,7 +217,8 @@
     },
     {
       "name": "api",
-      "properties": [{
+      "properties": [
+        {
           "key": "tomcat.maxthreads",
           "value": "1200"
         },
@@ -210,7 +231,8 @@
           "value": "/yacceleratorstorefront"
         }
       ],
-      "webapps": [{
+      "webapps": [
+        {
           "name": "hac",
           "contextPath": "/hac"
         },
@@ -221,6 +243,10 @@
         {
           "name": "yacceleratorstorefront",
           "contextPath": "/yacceleratorstorefront"
+        },
+        {
+          "name": "yb2bacceleratorstorefront",
+          "contextPath": "/yb2bacceleratorstorefront"
         },
         {
           "name": "smartedit",
