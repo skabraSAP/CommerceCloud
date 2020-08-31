@@ -8,10 +8,6 @@
     }
   ],
   "extensions": [
-    "cloudmediaconversion",
-    "mediaconversionbackoffice",
-    "yb2bacceleratorstorefront",
-    "yacceleratorstorefront"
   ],
   "useConfig": {
     "properties": [
